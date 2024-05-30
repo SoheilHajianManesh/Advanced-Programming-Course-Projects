@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: gray;
+  text-align:center;
+}
+
+h1 {
+  color: yellow;
+  text-align: center;
+  font-size:60px;
+}
+
+div {
+  background-color: rgb(35,45,60);
+  padding:1%;
+  max-width:300px;
+  border-radius:3px;
+  margin:auto;
+}
+p{
+  color:yellow;
+  font-size:20px;
+}
+input{
+  display:block;
+  margin:auto;
+  margin-bottom:30px;
+  padding:5px;
+  width:94%;
+  background-color:rgb(253, 247, 246);
+}
+button{
+  display:block;
+  width:100%;
+  padding:7px;
+}
+</style>
+</head>
+<body>
+    <h1>UTAXI</h1>
+    <div>
+      <form action="/del" method="post">
+        <p>Delete Trip</p>
+        <input name="username" type="text" placeholder="Username"/>
+        <input name="id" type="text" placeholder="Trip_ID"/>
+        <button type="submit" style="display:block; width: 100%; padding: 7px;">DELETE</button>
+      </form>
+    </div>
+  </body>
+</html>
